@@ -1,3 +1,6 @@
+st.write(list(st.secrets.keys()))
+
+
 import streamlit as st
 import db
 from admin import es_admin, pagina_admin
